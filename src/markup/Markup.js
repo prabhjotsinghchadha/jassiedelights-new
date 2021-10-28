@@ -56,7 +56,7 @@ class Markup extends Component{
 	
 	render(){
 		return(
-			<BrowserRouter basename='/react'>
+			<BrowserRouter basename='/React'>
 				<Switch>
 					<Route path='/' exact component={Index1} />
 					<Route path='/index-2' exact component={Index2} />
